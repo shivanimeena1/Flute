@@ -1,0 +1,81 @@
+body {
+    background-image: url(mor.jpg);
+    height: 90vh;
+    /*viewport height*/
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: rgba(198, 189, 8, 0.897);
+    font-size: 60px;
+    font-family: 'Homemade Apple', cursive;
+    padding-top: 30px;
+}
+
+.flute {
+    width: 80%;
+    display: flex;
+    margin: 10%;
+    margin-top: 20%;
+    justify-content: center;
+    border-radius: 40px 35px 35px 40px;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(#d2bc2ce6, #e8ab04, #f9e42ccf, #e85d04, #f28f3b, #e8ab04);
+}
+
+.flutebtn {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(#000000, #2b2d42, #8d99ae);
+    border: none;
+    margin: 20px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.design {
+    border-radius: 50%;
+    margin: 0.6% 4% 0.6% 2%;
+    border-right: 4px solid #370617;
+
+    background-image: linear-gradient(#370617, #6a040f, #dc2f02, #e85d04);
+}
+
+@media only screen and (max-width: 900px) {
+    .flute {
+        margin-top: 28%;
+    }
+
+    .flutebtn {
+        position: relative;
+        width: 13px;
+        height: 13px;
+        background-color: black;
+        border: none;
+        margin: 15px;
+        border-radius: 50%;
+        outline: none;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .flute {
+        margin-top: 40%;
+    }
+
+    .flutebtn {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        border: none;
+        margin: 10px;
+        border-radius: 50%;
+        outline: none;
+    }
+
+}
